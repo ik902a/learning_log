@@ -1,0 +1,1 @@
+It's an educational web project on python
