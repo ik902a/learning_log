@@ -1,0 +1,20 @@
+{% extends "learning_logs/base.html" %}
+{% block content %}
+<p>Траты</p>
+<form action="" method="POST">
+    <p><label for="food">Еда:</label></p>
+    <input type="text" name="food" id="food" value="0">
+    <p>{{ expenses }}</p>
+    <p><label for="cafe">Кафе:</label></p>
+    <input type="text" name="cafe" id="cafe" value="0">
+    <p><label for="cloth">Одежда:</label></p>
+    <input type="text" name="cloth" id="cloth" value="0">
+    <p><label for="other">Другое:</label></p>
+    <input type="text" name="other" id="other" value="0">
+    <p><label for="communal">Коммуналка:</label></p>
+    <input type="text" name="communal" id="communal" value="0">
+
+    <input type="submit" value="+">
+</form>
+
+{% endblock content %}
